@@ -1,0 +1,3 @@
+ Each setting should have a unique identifier such as a name, and should hold a single value. For example: an email address used to send error emails, or a boolean flag to enable/disable a particular feature. It must be possible to store values of at least these 4 types: string, integer, float and boolean.
+
+The purpose of this exercise is to show your code design skills. Therefore, the model's interface for reading and writing configuration values must be simple and convenient. It should be possible to read and write specific values, versus reading and writing all the configuration settings all at once. The model should come with tests and database migrations.
